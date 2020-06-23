@@ -1,10 +1,11 @@
-* {
+html {
     box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    color: whitesmoke;
 }
 
-body {
-    margin: 0;
-    /* background-color: rgb(1, 0, 65); */
+*, ::after, ::before {
+    box-sizing: inherit;
 }
 
 .container {
@@ -44,7 +45,6 @@ body {
 .button {
     border: none;
     border-radius: 15px;
-    font-family: 'Lato', sans-serif;
     background: rgba(251, 255, 25, 0.55);
     color: rgb(0, 0, 82);
     transition: .2s;
@@ -176,7 +176,6 @@ body {
 }
 
 .question {
-    font-family: 'Lato', sans-serif;
     font-size: 18px;
     font-weight: bold;
     color: rgb(245, 244, 247);
@@ -193,13 +192,8 @@ body {
     margin-top: 10px;
     padding: 20px;
     background: rgba(27, 61, 255, 0.618);
-    font-family: 'Lato', sans-serif;
     font-size: 18px;
     color: rgb(228, 228, 228);
-}
-
-.question__area:focus {
-    outline: none;
 }
 
 .stage {
