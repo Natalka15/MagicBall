@@ -42,10 +42,17 @@ html {
     color: rgb(0, 0, 82);
 }
 
+.container__description{
+    font-size: 18px;
+    margin: auto 20px 50px;
+    line-height: 1.5;
+    text-shadow: 1px 1px 1px rgba(245, 245, 245, 0.384);
+}
+
 .button {
     border: none;
     border-radius: 15px;
-    background: rgba(251, 255, 25, 0.55);
+    background: rgba(251, 255, 25, 0.65);
     color: rgb(0, 0, 82);
     transition: .2s;
 }
